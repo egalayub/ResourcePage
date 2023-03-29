@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Slides from "./Carousel.jsx"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <h1 >
        Here are Some Resources 
         </h1>
+        <Slides/>
         <ul className="font-RaleWay text-yellow-500 text-xl text-center pt-10">
           <li>
             <a href="https://www.tasteofhome.com/article/cooking-measurement-conversion/">Measurment Converter</a>
@@ -20,7 +22,9 @@ function App() {
          <li>
             <a href="https://www.timeanddate.com/timer/">Online Timer</a>
          </li>
-
+         <li>
+            <a href="https://learntocook.com/techniques/top-6-kitchen-best-practices/">Best Practises</a>
+         </li>
         </ul>
       </div>
       </section>
