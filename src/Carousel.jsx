@@ -4,7 +4,9 @@ import {RxDotFilled} from 'react-icons/rx';
 function Slides( ){
 const SlideShow = [
     {
-        url:'https://assets.epicurious.com/photos/5ed94926dd87b9e5df92999b/16:9/w_2560%2Cc_limit/StatementTimers_HERO_060320_8443.jpg'
+        
+     url:'https://assets.epicurious.com/photos/5ed94926dd87b9e5df92999b/16:9/w_2560%2Cc_limit/StatementTimers_HERO_060320_8443.jpg'
+        
     },
     {
         url:'https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFwZSUyMG1lYXN1cmV8ZW58MHx8MHx8&w=1000&q=80'
@@ -13,6 +15,7 @@ const SlideShow = [
         url:'https://d39l2hkdp2esp1.cloudfront.net/img/photo/136620/136620_00_2x.jpg'
     },
 ];
+
 const[currentIndex,setCurrentIndex] = useState(0)
 const prevSlide = () => {
     const isFirstSlide =currentIndex === 0;
